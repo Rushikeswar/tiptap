@@ -1,0 +1,43 @@
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.tag-item {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.tag-button {
+  padding: 8px 12px;
+  margin-right: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.remove-tag-button {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 50%;
+}
+
+.tag-input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.editor {
+  border: 1px solid #ccc;
+  min-height: 200px;
+  padding: 20px;
+}
