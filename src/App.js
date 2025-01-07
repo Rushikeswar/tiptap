@@ -57,7 +57,7 @@ const App = () => {
         {tags.map((tag, index) => (
           <div  key={index} className="tag-item">
             <button onClick={() => addTag(tag)} className="tag-button">
-              Add Tag: {tag}
+              # {tag}
             </button>
             <button style={{color:"white",backgroundColor:"black"}} onClick={() => handleRemoveTag(tag)} className="remove-tag-button">
               ✖
